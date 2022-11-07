@@ -1,0 +1,129 @@
+Exercise 1
+
+Fizz-Buzz: Write a program that will print numbers from 1 to 30, with the following 
+exceptions that when the number is divisible by 3, the word “Fizz” is printed instead 
+of the number, and when the number is divisible by 5, the word “Buzz” is printed 
+instead of the number, and when the number is divisible by by both 3 and 5, then the 
+word “FizzBuzz” is printed instead of the number.
+a. Write the output sequence of what the output will look like
+b. Write the algorithm for delivering the output
+
+a. 1
+   2
+   Fizz
+   4
+   Buzz
+   Fizz
+   7
+   8
+   Fizz
+   Buzz
+   11
+   Fizz
+   13
+   14   
+   Fizz Buzz
+   16
+   17
+   Fizz
+   19
+   Buzz
+   21
+   22
+   23
+   Fizz
+   Buzz
+   26
+   Fizz
+   28
+   29
+   Fizz buzz
+
+b. Step 1: Start
+   Step 2: Initialise i=0
+   Step 3: Repeat step 4 until i<30
+ 
+   Step 4:    if         array[i]/3 && array[i]/5
+                         output "Fizz Buzz"
+
+              else if    array[i]/3
+                         output "Fizz"
+
+              else if    array[i]/5
+                         output "Buzz"
+
+              else      output array[i]
+  Step 5:     end if
+  Step 6: Stop
+
+
+
+
+Exercise 2
+
+Number to Ordinal: Write a program that will take as input any number from the 
+user and will print the “ordinal” form of the number. For example, when the user 
+enters the number “31”,  the program will respond with “thirty first”
+a. Write the algorithm for delivering the output
+
+a.  Step 1: Start
+    Step 2: Initialise a=0
+    Step 3: Read p
+
+    Step 4: while   p!=0
+                    a=(a*10)+(p%10)
+                    p=p/10
+   Step 5:  End while
+
+   Step 6: while a!=0
+   Step 7:      switch   a%10
+
+                case 0:
+                output "Zero "
+                break;
+
+                case 1:
+                output "One "
+                break;
+
+                case 2:
+                output "Two "
+                break;
+
+                case 3:
+                output "Three "
+                break;
+
+                case 4:
+                output "Four "
+                break;
+
+                case 5:
+                output "Five "
+                break;
+
+                case 6:
+                output "Six "
+                break;
+       
+                case 7:
+                output "Seven "
+                break;
+ 
+                case 8:
+                output "Eight"
+                break;
+
+                case 9:
+                output "Nine "
+                break;
+             
+      Step 8:   End switch
+      Step 9:   a=a/10
+      Step 10:  End while
+      Step 11:  return 0
+      Step 12:  End
+ 
+
+ 
+
